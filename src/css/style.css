@@ -1,0 +1,104 @@
+body {
+    font-family: var(--roboto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    background-image: url(../image/bg-repeat.jpg);
+    min-height: 402px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    margin-top: 10%;
+    padding: 12px 40px;
+}
+
+.conteudo .info {
+    padding: 60px;
+    margin-left: -40px;
+
+}
+
+.conteudo .info .titulo {
+    font-weight: 900;
+    font-size: 20px;
+    color: #ffffffff;
+    line-height: 23px;
+}
+
+.conteudo .info .texto {
+    color: #ffffffff;
+    display: flex;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 11px;
+}
+
+.conteudo .formulario {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    background-color: #ffffffff;
+    padding: 20px;
+}
+
+.conteudo .formulario input {
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 8px;
+    font-family: var(--roboto);
+}
+
+.conteudo .formulario textarea {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: var(--roboto);
+    min-height: 100px;
+}
+
+
+
+.conteudo .formulario .recado {
+    font-size: var(--roboto);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 7px;
+    margin-bottom: 11px;
+}
+
+ #submit {
+    width: 100%;
+    min-height: 45px;
+    background-color: #3CCC87;
+    color: #ffffffff;
+    border-radius: 5px;
+    border-color: aliceblue;
+}
+
+.btn:hover {
+    transform: scale(1.02);
+    background-color: #3ccc73;
+    cursor: pointer;
+}
+
+.erro {
+    display: none;
+    color: #f52e2e;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.vazio {
+    border-color: #f52e2e;
+}
+
+.preenchido {
+    border-color: #00c22b;
+}
